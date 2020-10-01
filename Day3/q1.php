@@ -2,7 +2,7 @@
 <h1>Generate Report</h1>
 
 <div class="Report">
-	<form action="mks2sql.php" method="post">
+	<form action="q1.php" method="post">
 	<label for="Name">Name of the Student</label>
 	<input type="text" name="sname" id="Name" placeholder="Enter your Full Name" required><br><br>
 

@@ -47,33 +47,14 @@ $connect=mysqli_connect("localhost","root","") or die(mysql_error());
 mysqli_select_db($connect,"result") or die("ERROR");
 
 $write=mysqli_query($connect,"Insert into class1 values('','$yourname','$mk1','$mk2','$mk3','$mk4','$mk5','$total','500','$per')") or die(mysqli_error($connect));
-$mk5=99;
-
-$total=($mk1+$mk2+$mk3+$mk4+$mk5);
-$per=($mk1+$mk2+$mk3+$mk4+$mk5)/500 *100;
-$update=mysqli_query($connect,"update class1 set sub5='$mk5' where name='Rohan'");
-$update=mysqli_query($connect,"update class1 set total_obtained='$total'  where name='Rohan' ");
-$update=mysqli_query($connect,"update class1  percentage='$per' where name='Rohan' ");
-
-if($update)
-{
-echo "Subject 5 marks updated to 99 <br>";
-}
-
-
-
-
-
-
-
 
 
 
 
 if($yourname)
 {
-	echo "Total Marks Obtained: ".($mk1+$mk2+$mk3+$mk4+$mk5)."<br>";
+	echo "Total Marks Obtained: ".$total."<br>";
 	echo "Total Marks: 500 <br>";
-	echo "Percentage:".(($mk1+$mk2+$mk3+$mk4+$mk5)/500 *100)."%";
+	echo "Percentage:".$per."%";
 }
 ?>

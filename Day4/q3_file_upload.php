@@ -29,7 +29,7 @@ if(@$_POST['submit'])
  
    echo "FILE SIZE: ".$_FILES["file"]["size"]." bytes <br>";
 
-   echo  "ERROR: ".$_FILES["file"]["error"]."<br>";
+   echo  "ERROR: ".$_FILES["file"]["error"]."<br>" ;
 }
 
 $_FILES=0;

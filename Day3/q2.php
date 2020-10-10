@@ -20,9 +20,7 @@ $name1 = $row["name"];
 $newtotal = $s1+$s2+$s3+$s4+$s5;
 $newper = ($newtotal / 500 ) * 100 ;
 
-mysqli_query($connect,
-"UPDATE class1  SET sub5='$s5' , totalObtained = '$newtotal' , percent = '$newper' WHERE name='$name1'"
-);
+mysqli_query($connect,"UPDATE class1  SET sub5='$s5' , totalObtained = '$newtotal' , percent = '$newper' WHERE name='$name1'");
 
 
 

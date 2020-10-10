@@ -18,7 +18,7 @@
 </form>
 <br><form action="update.php" method="POST">
 Enter username:
-<input type="text" name="uname" id="">
+<input type="text" name="uname" id="h">
 
 
 <input type="submit" value="UPDATE" name="update">

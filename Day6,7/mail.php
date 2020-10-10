@@ -1,8 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>MIAL</title>
 </head>
 <body>
@@ -18,7 +17,7 @@ Enter Parent's email id:
 <?php
 if(isset($_POST["submit"]))
 {
-    $name='Siddesh';
+    $name='Himanshu';
     $email=$_POST['email'];   
     $subject='Marksheet of '.$name;
     $m1=96;

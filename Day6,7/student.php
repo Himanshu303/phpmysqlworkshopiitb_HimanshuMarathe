@@ -100,7 +100,7 @@ if(@$_POST["send"])
    // {
        // echo "Sorry you have scored less than 60% we cannot send mail";
   //  }
-
+//
   //  else{
 
 $email=@$_POST["email"];

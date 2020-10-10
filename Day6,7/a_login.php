@@ -5,7 +5,7 @@
     Username: <input type="text"  name="user" placeholder="Enter username" required><br>
     Password: <input type="password"  name="pass" placeholder="Enter password" required><br><br>
 
-    <input type="submit" value="Login" name="b1"/>
+    <input type="submit" value="Login" name="b1" id="">
     </form>
 
     
@@ -35,5 +35,10 @@ if ($user=='INDIA' && $pass=='1947' ){
       echo "Invalid credentials";
   }
 }
+
+
+
+
+
 
 ?>
